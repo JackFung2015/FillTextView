@@ -30,18 +30,4 @@
         android:text="原生TextView：经南京市委批准，南京市纪委监委对南京禄口国际机场疫情防控不力问题进行调查并开展问责。根据目前调查情况，先期对相关人员进行处理，通报如下："
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
-
-    <com.fung.view.FillSingleTextView
-        android:id="@+id/fst"
-        android:background="#ff8970"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="2dp"
-        android:layout_marginTop="20dp"
-        ft:fText="经南京市委批准，南京市纪委监委对南京禄口国际机场疫情防控不力问题进行调查并开展问责。根据目前调查情况，先期对相关人员进行处理，通报如下："
-        ft:fTextColor="@color/black"
-        ft:fTextSize="20sp"
-        app:layout_constraintTop_toBottomOf="@id/tv"
-        app:layout_constraintLeft_toLeftOf="parent"/>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
