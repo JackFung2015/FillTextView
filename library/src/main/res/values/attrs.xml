@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FillTextView">
+        <attr name="text" format="string"></attr>
+        <attr name="textColor" format="color"></attr>
+        <attr name="textSize" format="dimension"></attr>
+    </declare-styleable>
+    <declare-styleable name="FillSingleTextView">
+        <attr name="fText" format="string"></attr>
+        <attr name="fTextColor" format="color"></attr>
+        <attr name="fTextSize" format="dimension"></attr>
+    </declare-styleable>
+</resources>

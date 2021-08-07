@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ft="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fung.ui.MainActivity">
+
+    <com.fung.view.FillTextView
+        android:id="@+id/ft"
+        android:background="#ff8970"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        ft:text="自定义TextView：经南京市委批准，南京市纪委监委对南京禄口国际机场疫情防控不力问题进行调查并开展问责。根据目前调查情况，先期对相关人员进行处理，通报如下："
+        ft:textColor="@color/black"
+        ft:textSize="20sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv"
+        app:layout_constraintTop_toBottomOf="@id/ft"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:padding="2dp"
+        android:background="#006789"
+        android:text="原生TextView：经南京市委批准，南京市纪委监委对南京禄口国际机场疫情防控不力问题进行调查并开展问责。根据目前调查情况，先期对相关人员进行处理，通报如下："
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.fung.view.FillSingleTextView
+        android:id="@+id/fst"
+        android:background="#ff8970"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:layout_marginTop="20dp"
+        ft:fText="经南京市委批准，南京市纪委监委对南京禄口国际机场疫情防控不力问题进行调查并开展问责。根据目前调查情况，先期对相关人员进行处理，通报如下："
+        ft:fTextColor="@color/black"
+        ft:fTextSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/tv"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
